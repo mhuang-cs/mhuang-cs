@@ -7,10 +7,10 @@
 
 | 项目名称 | 核心内容与实测数据 | 涉及技术栈 |
 | :--- | :--- | :--- |
-| **[java-troubleshooting-labs](https://github.com/mhuang-cs/java-troubleshooting-labs)** | Heap/Metaspace OOM 本地复现、CPU 飙升与线程死锁终端诊断实录 | `JVM` / `Arthas` / `MAT` / `Linux` |
-| **[oms-high-concurrency-core](https://github.com/mhuang-cs/oms-high-concurrency-core)** | 下单接口高并发防重幂等、订单状态机乐观锁、MQ 削峰与死信补偿机制 | `Spring Boot` / `Redis Lua` / `RabbitMQ` |
-| **[mysql-10m-tuning-lab](https://github.com/mhuang-cs/mysql-10m-tuning-lab)** | 1000 万级订单表深分页查询（4.2s → 0.03s）与 InnoDB 死锁日志拆解 | `MySQL 8.0` / `EXPLAIN` / `InnoDB` |
-| **[oms-architecture-blueprint](https://github.com/mhuang-cs/oms-architecture-blueprint)** | 订单中心核心状态流转、分布式对账防漏单与大促限流降级架构设计 | `System Design` / `Mermaid` |
+| **[java-troubleshooting-labs](https://github.com/mhuang-cs/java-troubleshooting-labs)** | Heap/Metaspace OOM 内存泄漏复现、CPU 飙升与线程死锁终端诊断实录 | `JVM` / `Arthas` / `MAT` / `Linux` |
+| **[high-concurrency-labs](https://github.com/mhuang-cs/high-concurrency-labs)** | 高并发接口防重幂等（Redis+Lua）、版本号乐观锁防覆盖、MQ 削峰与死信补偿 | `Spring Boot` / `Redis Lua` / `RabbitMQ` |
+| **[mysql-tuning-labs](https://github.com/mhuang-cs/mysql-tuning-labs)** | 千万级数据深分页延迟关联优化（4.2s → 0.03s）、InnoDB 死锁与慢 SQL 索引调优 | `MySQL 8.0` / `EXPLAIN` / `InnoDB` |
+| **[distributed-arch-labs](https://github.com/mhuang-cs/distributed-arch-labs)** | 通用业务状态机引擎、分布式异步对账防漏单与高并发限流降级兜底设计 | `System Design` / `Redis` / `Mermaid` |
 
 ---
 📍 Base：深圳 ｜ 📫 Contact：`huang.min@163.com`
