@@ -1,7 +1,6 @@
-专注高并发交易链路、分布式系统架构与线上稳定性治理的 Java 后端工程师。  
-本主页用于沉淀日常技术实验、千万级数据调优基准测试与故障排查复盘。
+专注高并发交易链路、分布式系统架构与线上稳定性治理的 Java 后端工程师。
 
-核心技术栈：`Java` · `Spring Boot` / `Cloud Alibaba` · `MySQL 8.0` · `Redis` · `Kafka` / `RabbitMQ` · `JVM` / `Arthas` · `Linux`
+核心技术栈：`Java` / `Spring Boot` / `Cloud Alibaba` / `MySQL 8.0` / `Redis` / `Kafka` / `RabbitMQ` / `JVM` / `Arthas` / `Linux`
 
 ### 🛠 核心工程实验室与架构沉淀
 
