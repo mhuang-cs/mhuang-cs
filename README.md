@@ -4,22 +4,17 @@
 
 ### 🛠 核心工程实验室与架构沉淀
 
-| 项目名称 | 核心内容与实测数据 | 涉及技术栈 |
-| :--- | :--- | :--- |
-| **[java&#8209;troubleshooting&#8209;labs](https://github.com/mhuang-cs/java-troubleshooting-labs)** | Heap/Metaspace OOM 内存泄漏复现、<br>CPU 飙升与线程死锁终端诊断实录 | `JVM` / `Arthas` / `MAT` / `Linux` |
+| 项目名称                                                     | 核心内容与实测数据                                           | 涉及技术栈                               |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :--------------------------------------- |
+| **[java&#8209;troubleshooting&#8209;labs](https://github.com/mhuang-cs/java-troubleshooting-labs)** | Heap/Metaspace OOM 内存泄漏复现、<br>CPU 飙升与线程死锁终端诊断实录 | `JVM` / `Arthas` / `MAT` / `Linux`       |
 | **[high&#8209;concurrency&#8209;labs](https://github.com/mhuang-cs/high-concurrency-labs)** | 高并发接口防重幂等（Redis+Lua）、<br>版本号乐观锁防覆盖、MQ 削峰与死信补偿 | `Spring Boot` / `Redis Lua` / `RabbitMQ` |
-| **[mysql&#8209;tuning&#8209;labs](https://github.com/mhuang-cs/mysql-tuning-labs)** | 千万级数据深分页延迟关联优化（4.2s → 0.03s）、<br>InnoDB 死锁与慢 SQL 索引调优 | `MySQL 8.0` / `EXPLAIN` / `InnoDB` |
-| **[distributed&#8209;arch&#8209;labs](https://github.com/mhuang-cs/distributed-arch-labs)** | 通用业务状态机引擎、<br>分布式异步对账防漏单与高并发限流降级设计 | `System Design` / `Redis` / `Mermaid` |
+| **[mysql&#8209;tuning&#8209;labs](https://github.com/mhuang-cs/mysql-tuning-labs)** | 千万级数据深分页延迟关联优化（4.2s → 0.03s）、<br>InnoDB 死锁与慢 SQL 索引调优 | `MySQL 8.0` / `EXPLAIN` / `InnoDB`       |
+| **[distributed&#8209;arch&#8209;labs](https://github.com/mhuang-cs/distributed-arch-labs)** | 通用业务状态机引擎、<br>分布式异步对账防漏单与高并发限流降级设计 | `System Design` / `Redis` / `Mermaid`    |
 
 ---
 
-📜 **已授权发明专利**： 
-
-* [《多媒体数据处理装置》](./assets/CN109862402B-多媒体数据处理装置.pdf)（`CN109862402B`）— 分布式并行调度与容灾架构（按节点 CPU 算力动态切分子任务并行处理，支持节点宕机故障转移） 
-* [《提升景观照明云控平台文件传输效率的处理系统及方法》](./assets/CN109618011B-提升景观照明云控平台文件传输效率的处理系统及方法.pdf)（`CN109618011B`）— 分布式文件分发与源站削峰架构设计（基于元信息状态追踪、数据分块传输与中心 FTP 源站限流）
-
----
+📜 **已授权发明专利**：
+* [《多媒体数据处理装置》](./assets/CN109862402B-多媒体数据处理装置.pdf)（`CN109862402B`）— 基于节点 CPU 算力的并行分片调度与宕机故障转移
+* [《提升景观照明云控平台文件传输效率的处理系统及方法》](./assets/CN109618011B-提升景观照明云控平台文件传输效率的处理系统及方法.pdf)（`CN109618011B`）— 元信息状态追踪、分块分发与中心源站削峰
 
 📍 Base: 深圳 | 📫 Contact: `huang.min@163.com`
-
-
