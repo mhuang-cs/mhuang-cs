@@ -1,7 +1,5 @@
 专注高并发交易链路、海量数据存储架构与线上稳定性治理的资深 Java 后端工程师（已授权发明专利核心发明人）。
 
----
-
 ### 🛠 核心架构沉淀与工程实战
 
 | 项目名称                                                     | 核心架构设计与实测指标                                       | 涉及技术栈                                                   |
@@ -10,8 +8,6 @@
 | **[heterogeneous&#8209;data&#8209;arch](https://github.com/mhuang-cs/heterogeneous-data-arch)**<br> | **千万级数据治理与多模异构存储实战**<br>• 千万级大表深分页延迟关联优化（**4.2s → 0.03s**）、InnoDB 死锁与慢 SQL 调优<br>• 基于 `Canal` 订阅 Binlog 实现 `MySQL → ES / MongoDB` 准实时异构同步与数据一致性巡检 | `MySQL 8.4` · `InnoDB`<br>`MongoDB` · `Elasticsearch`<br>`Canal` |
 | **[jvm&#8209;ops&#8209;playbook](https://github.com/mhuang-cs/jvm-ops-playbook)**<br> | **生产级 JVM 调优与线上故障诊断实录**<br>• 容器内存限额（Cgroups）下的 G1 / ZGC 参数调优与压测对比<br>• Heap/Metaspace OOM 复现、MAT 堆栈分析、CPU 飙升与死锁 `Arthas` 终端排查全流程 | `JVM` · `Arthas` · `MAT`<br>`Docker` · `Linux`               |
 | **[llm&#8209;resilient&#8209;gateway](https://github.com/mhuang-cs/llm-resilient-gateway)**<br> | **大模型企业级接入网关与稳定性治理**<br>• 解决 LLM 调用慢、易超时痛点：Token 令牌桶精细化限流、多模型熔断降级与路由<br>• SSE 流式响应背压控制及结构化输出（JSON Schema）自动重试兜底 | `Spring Boot 3` · `Spring AI`<br>`Sentinel` · `Redis`        |
-
----
 
 ### 📜 已授权发明专利
 
