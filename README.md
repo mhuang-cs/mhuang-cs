@@ -3,7 +3,7 @@
 ### ⚙️ 核心技术栈
 
 - **核心与云原生**：`Java 17/21` · `Spring Boot 3` · `Spring Cloud Alibaba` · `Docker / K8s` · `Spring AI`
-- **存储与异构同步**：`MySQL 8.0` · `Redis` · `MongoDB` · `Elasticsearch` · `ShardingSphere` · `Canal`
+- **存储与异构同步**：`MySQL 8.4` · `Redis` · `MongoDB` · `Elasticsearch` · `ShardingSphere` · `Canal`
 - **消息与可观测性**：`Kafka` · `RabbitMQ` · `Sentinel` · `SkyWalking` · `Prometheus` · `Arthas`
 
 ---
