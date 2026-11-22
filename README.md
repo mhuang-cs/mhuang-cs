@@ -1,11 +1,5 @@
 专注高并发交易链路、海量数据存储架构与线上稳定性治理的资深 Java 后端工程师（已授权发明专利核心发明人）。
 
-### ⚙️ 核心技术栈
-
-- **核心与云原生**：`Java 17/21` · `Spring Boot 3` · `Spring Cloud Alibaba` · `Docker / K8s` · `Spring AI`
-- **存储与异构同步**：`MySQL 8.4` · `Redis` · `MongoDB` · `Elasticsearch` · `ShardingSphere` · `Canal`
-- **消息与可观测性**：`Kafka` · `RabbitMQ` · `Sentinel` · `SkyWalking` · `Prometheus` · `Arthas`
-
 ---
 
 ### 🛠 核心架构沉淀与工程实战
