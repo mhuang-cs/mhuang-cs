@@ -6,7 +6,7 @@
 - **存储与异构同步**：`MySQL 8.4` · `Redis` · `MongoDB` · `Elasticsearch` · `ShardingSphere` · `Canal`
 - **消息与可观测性**：`Kafka` · `RabbitMQ` · `Sentinel` · `SkyWalking` · `Prometheus` · `Arthas`
 
----*llm-resilient-gateway
+---
 
 ### 🛠 核心架构沉淀与工程实战
 
